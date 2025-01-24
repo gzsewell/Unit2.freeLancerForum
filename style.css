@@ -6,7 +6,21 @@
   border-width: 1px;
 }
 
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
 th,
-td {
+td,
+tr {
   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
 }

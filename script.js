@@ -8,9 +8,17 @@ const freelancers = [
   { name: "Dr. Wire", price: 47, occupation: "teacher" },
   { name: "Prof. Goose", price: 72, occupation: "driver" },
 ];
-const names = ["Mr. John", "Ms. Jane", "Mr. James"];
-const occupations = ["Plumber", "Doctor", "Security"];
-const prices = [35, 52, 37];
+const names = [
+  "Mr. John",
+  "Ms. Jane",
+  "Mr. James",
+  "Mr. Jason",
+  "Mr. Guy",
+  "Madam Ping",
+  "Count Trever",
+];
+const occupations = ["Plumber", "Doctor", "Security", "Delivery", "Tutoring"];
+const prices = [35, 52, 37, 102, 57, 205, 12];
 
 //Create a function that displays the average starting price.
 function addAveragePrice(items) {
@@ -52,6 +60,6 @@ p.textContent = `The average freelance price is: ${avgPrice}`;
 const addAll = setInterval(() => {
   addFreelancer();
   render();
-}, 1000);
+}, 3000);
 
 render();
